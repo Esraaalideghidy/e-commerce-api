@@ -9,7 +9,7 @@ It handles products, users, orders, and reviews.
 - Product Management: CRUD operations for products and categories  
 - User Accounts: Registration, login, profile update  
 - Order Management: Cart, checkout, payment processing  
-- Reviews & Ratings: Comment and rate products  
+- Reviews & Ratings: Review to products  
 - Fully functional REST API ready for frontend integration
 
 ## Installation
