@@ -32,7 +32,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
 
     def get_serializer_context(self):
         print(self.kwargs)
-        return {'slug': self.kwargs['product_slug']}  # 'products' هو الاسم الذي استخدمته في الـ Nested Router بالنسبه لان كان في خطأ بسبب ال lookup ف طبعنا وطلع ان بيطبع product_slug يعني product بتاعت اللوك اب 
+        return {'slug': self.kwargs['product_slug']}
 
     def get_queryset(self):
         product = get_object_or_404(Product, slug=self.kwargs['product_slug'])
